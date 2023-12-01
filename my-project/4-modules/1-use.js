@@ -1,5 +1,3 @@
-//Top-level API is a simple object(no need to use module.exports)
-
-exports.languaje = "English";
-exports.direction = "RLT";
-exports.encoding = "UTF-8";
+const api = require("./1-object");
+console.log(api);
+console.log(api.languaje, api.direction, api.encoding);
